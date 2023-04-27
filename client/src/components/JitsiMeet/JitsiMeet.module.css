@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "FireSans";
+    src: url("../../Fonts/FiraSans-Bold.ttf");
+}
+
+.background {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-family: "FireSans";
+    margin-top: 100px;
+}
+
+.paragraph {
+    /* font-family:"FireSans" ; */
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+    color: black;
+    margin: 5px;
+}
+
+.paragraph blockquote {
+    text-indent: 30px;
+}
+
+.meetbutton {
+    border-radius: 3rem;
+    box-shadow: 0 1rem 1rem rgba(0,0,0, 0.2);
+    color: white;
+    margin-top: 20px;
+    margin-block: 20px;
+}

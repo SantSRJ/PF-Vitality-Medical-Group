@@ -1,0 +1,21 @@
+/* @font-face {
+    font-family: "FireSans";
+    src: url("../../Fonts/FiraSans-Bold.ttf");
+} */
+
+.div{
+    /* font-family: "FireSans"; */
+}
+.button{
+    display: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+.button_delete{
+    display: center;
+    justify-content: space-between;
+    background-color: #C73611;
+    /* font-family: "FireSans"; */
+}
+

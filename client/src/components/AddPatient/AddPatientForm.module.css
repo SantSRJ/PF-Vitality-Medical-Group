@@ -1,0 +1,116 @@
+.container__patient {
+    width: 100%;
+    display: flex;
+    background-color: #f1efef;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .container__patient_form {
+    padding-top: 2rem;
+    width: 100%;
+    color: #787878;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
+  .btn__form:hover {
+    color: #bebebe;
+  }
+  
+  .container__patient_form form {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+  
+  }
+  
+  .container__patient_form form input {
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 0.5rem;
+    outline: none;
+    color: #aaaaaa;
+    width: 10rem;
+    text-align: left;
+
+  }
+  
+  .container__patient_form form select {
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #aaaaaa;
+    padding: 0.5rem;
+    outline: none;
+    color: #aaaaaa;
+    width: 8rem;
+    font-size: 10px;
+
+  }
+  
+  .errors {
+    background-color: rgb(148, 41, 41);
+  width: 40%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  padding: 1rem;
+  }
+  
+  .container__selects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+  }
+  .input_comments {
+    width: 500px;
+    height: 125px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f1efef;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: 15px;
+
+  }
+  .text_img{
+    pointer-events: none;
+    size:30px;
+   display: flex;
+    margin-top: 300px;
+
+  }
+
+  
+  .btn__form{
+width: 80%;
+border-radius: 0;
+margin: 1rem;
+
+
+  }
+
+  .btn_color{
+    background-color: rgb(31, 113, 31);
+  }
